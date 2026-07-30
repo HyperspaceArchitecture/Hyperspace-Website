@@ -1,0 +1,518 @@
+{
+  "disciplineOrder": [
+    "residential",
+    "commercial",
+    "multidwelling",
+    "interiors",
+    "heritage",
+    "planning"
+  ],
+  "disciplinePaths": {
+    "residential": "/residential",
+    "commercial": "/commercial",
+    "multidwelling": "/multi-dwelling",
+    "interiors": "/interiordesign",
+    "heritage": "/heritage",
+    "planning": "/planning"
+  },
+  "disciplines": {
+    "residential": {
+      "title": "Residential Architecture",
+      "shortTitle": "Residential",
+      "kicker": "Custom homes · renovations · extensions",
+      "summary": "Contemporary homes shaped around climate, landscape and the way people genuinely live.",
+      "intro": "Hyperspace designs individual homes, substantial renovations, extensions and knockdown rebuilds across Canberra, the ACT and regional NSW.",
+      "statement": "Each home begins with its site. We balance outlook, privacy, orientation, planning constraints and budget to create spaces that feel generous, calm and specific to their owners.",
+      "services": [
+        "Site feasibility and due diligence",
+        "Custom homes and knockdown rebuilds",
+        "Renovations and contemporary extensions",
+        "Passive solar and climate-responsive design",
+        "Planning and building approvals",
+        "Interior architecture and documentation"
+      ],
+      "hero": "https://static.wixstatic.com/media/1c41db_ca175b18139e4a78ac81c2539ef92f1b~mv2.png",
+      "gallery": [
+        {
+          "name": "Sutton Acreage House",
+          "image": "https://static.wixstatic.com/media/1c41db_b4616a5c5f584a5b82350b2022dd94d0~mv2.jpg",
+          "wide": true
+        },
+        {
+          "name": "Hilltop House",
+          "image": "https://static.wixstatic.com/media/1c41db_58903b5f9c6c40d49f5f260e9e9f5288~mv2.jpg"
+        },
+        {
+          "name": "Googong Residence",
+          "image": "https://static.wixstatic.com/media/1c41db_ff34b20812a24e0ab41c260526aed4db~mv2.jpg"
+        },
+        {
+          "name": "Pureline House",
+          "image": "https://static.wixstatic.com/media/1c41db_9527fdb89b7e4b4699a6b2ad8414064c~mv2.jpeg",
+          "wide": true
+        },
+        {
+          "name": "Deakin Extension",
+          "image": "https://static.wixstatic.com/media/1c41db_45cc39e17d7e4bb0b3ab86cbaccfaaf4~mv2.jpg"
+        },
+        {
+          "name": "Bronze House",
+          "image": "https://static.wixstatic.com/media/1c41db_5d1ca726a15141178d266d724b9d571b~mv2.jpg"
+        }
+      ]
+    },
+    "commercial": {
+      "title": "Commercial Architecture",
+      "shortTitle": "Commercial",
+      "kicker": "Workplace · hospitality · community · industrial",
+      "summary": "High-performing places that bring identity, operational clarity and long-term value together.",
+      "intro": "Our commercial portfolio spans community buildings, hotels, workplaces, places of worship, warehouses, showrooms and mixed-use developments.",
+      "statement": "We work closely with owners, developers and builders to test feasibility early, resolve approvals risk and translate commercial objectives into clear, durable architecture.",
+      "services": [
+        "Development feasibility and yield studies",
+        "Commercial, hospitality and community design",
+        "Industrial and warehouse architecture",
+        "Planning strategy and authority coordination",
+        "Detailed design and documentation",
+        "Tender and construction-phase services"
+      ],
+      "hero": "https://static.wixstatic.com/media/1c41db_2078a97342254ad0a39c1672a0f86c5b~mv2.jpg",
+      "gallery": [
+        {
+          "name": "Shantiniketan Community Centre",
+          "image": "https://static.wixstatic.com/media/1c41db_213dda9b68434eb6b4cf0206ddb19ab4~mv2.jpg",
+          "wide": true
+        },
+        {
+          "name": "Warehouse Number 10",
+          "image": "https://static.wixstatic.com/media/1c41db_4bd515e047714ba3824fb920b7ed9357~mv2.jpg"
+        },
+        {
+          "name": "Commercial Showroom",
+          "image": "https://static.wixstatic.com/media/1c41db_60fa05b516814169b28c4ed5684b3181~mv2.png"
+        },
+        {
+          "name": "Mixed-use Development",
+          "image": "https://static.wixstatic.com/media/1c41db_8b0695571c2c4164bd0cca5198da3d33~mv2.png",
+          "wide": true
+        },
+        {
+          "name": "Community Architecture",
+          "image": "https://static.wixstatic.com/media/1c41db_1b8fc44fc0054dcf9b09bb1e87d08918~mv2.png"
+        },
+        {
+          "name": "Hotel Pavilion",
+          "image": "https://static.wixstatic.com/media/1c41db_2078a97342254ad0a39c1672a0f86c5b~mv2.jpg"
+        }
+      ]
+    },
+    "multidwelling": {
+      "title": "Multi-dwelling Architecture",
+      "shortTitle": "Multi-dwelling",
+      "kicker": "Apartments · townhouses · dual occupancy",
+      "summary": "Design-led housing that transforms complex controls into practical, high-value communities.",
+      "intro": "Hyperspace works across dual occupancies, townhouse communities, adaptable housing, apartments and medium- to high-rise residential projects.",
+      "statement": "We combine yield analysis, planning expertise, design quality and Class 2 technical knowledge to create developments that are viable, liveable and well resolved.",
+      "services": [
+        "Site acquisition and yield testing",
+        "Dual occupancy and townhouse design",
+        "Apartment and mixed-use projects",
+        "Adaptable and accessible housing",
+        "ACT and NSW planning approvals",
+        "NSW Class 2 design practitioner services"
+      ],
+      "hero": "https://static.wixstatic.com/media/1c41db_01fc68c043234a89bdeca47b8fd10216~mv2.jpg",
+      "gallery": [
+        {
+          "name": "Marks Road Apartments",
+          "image": "https://static.wixstatic.com/media/1c41db_911e2be66847431e88c39d3da0ce10b7~mv2.png",
+          "wide": true
+        },
+        {
+          "name": "Googong Townhouses",
+          "image": "https://static.wixstatic.com/media/1c41db_78bfde6276874fdfbdec8863cc31f613~mv2.png"
+        },
+        {
+          "name": "Adaptable Townhouses",
+          "image": "https://static.wixstatic.com/media/1c41db_de3151f33a0e4913b34576a6a3c8b260~mv2.jpg"
+        },
+        {
+          "name": "Moncrieff Community",
+          "image": "https://static.wixstatic.com/media/1c41db_d184a2d30e7a4e83aead30eb27da079c~mv2.jpg",
+          "wide": true
+        },
+        {
+          "name": "Granada Townhouses",
+          "image": "https://static.wixstatic.com/media/1c41db_776bb8abe2234227b5665ab11888017c~mv2.jpg"
+        },
+        {
+          "name": "Cascades Residences",
+          "image": "https://static.wixstatic.com/media/1c41db_79239757d3614ead8c054564a5342294~mv2.jpg"
+        }
+      ]
+    },
+    "interiors": {
+      "title": "Interior Architecture",
+      "shortTitle": "Interiors",
+      "kicker": "Residential · workplace · retail · hospitality",
+      "summary": "Interiors with spatial clarity, material warmth and a strong connection to the architecture.",
+      "intro": "Our interior work ranges from homes and display suites to workplaces, retail settings and hospitality environments.",
+      "statement": "We treat the interior as part of one architectural idea—coordinating space, joinery, lighting, materials and furniture to create places that are both beautiful and effortless to use.",
+      "services": [
+        "Space planning and interior architecture",
+        "Kitchen, bathroom and joinery design",
+        "Workplace and retail interiors",
+        "Material, colour and lighting strategies",
+        "Furniture and fixture selection",
+        "Documentation and construction support"
+      ],
+      "hero": "https://static.wixstatic.com/media/1c41db_840a8a4eb2f24f65849ce3a2380e5c36~mv2.jpg",
+      "gallery": [
+        {
+          "name": "Scandinavian Living",
+          "image": "https://static.wixstatic.com/media/1c41db_fb0d7a7ffdfa4ec5a6de53b2095e5b38~mv2.jpg",
+          "wide": true
+        },
+        {
+          "name": "Lyons House",
+          "image": "https://static.wixstatic.com/media/1c41db_c5eee8562a334f228e6444b5b149997b~mv2.jpg"
+        },
+        {
+          "name": "Hilltop House Interior",
+          "image": "https://static.wixstatic.com/media/1c41db_a0210c1cc66f4280b26f43eb1c946fa7~mv2.jpg"
+        },
+        {
+          "name": "Shangrila Dining",
+          "image": "https://static.wixstatic.com/media/1c41db_68ccc70c37fe4b7a9b5777ab32f7c2d5~mv2.png",
+          "wide": true
+        },
+        {
+          "name": "DKSN Workplace",
+          "image": "https://static.wixstatic.com/media/1c41db_17a7d435522a427da953c28e318f6af7~mv2.png"
+        },
+        {
+          "name": "Double Height Living",
+          "image": "https://static.wixstatic.com/media/1c41db_690afe242e004fb7a3503ec77b293c23~mv2.jpg"
+        }
+      ]
+    },
+    "heritage": {
+      "title": "Heritage Architecture",
+      "shortTitle": "Heritage",
+      "kicker": "Conservation · adaptation · assessment",
+      "summary": "Evidence-led conservation that protects cultural significance while enabling thoughtful change.",
+      "intro": "Hyperspace provides heritage architecture, planning and material conservation services for private clients, councils and government agencies.",
+      "statement": "Our approach combines careful research, fabric assessment and practical design judgement. We help clients understand significance, navigate legislation and give valued places a viable future.",
+      "services": [
+        "Conservation Management Plans",
+        "Statements of Heritage Effect",
+        "Heritage impact assessment and advice",
+        "Material and fabric conservation",
+        "Adaptive reuse and sensitive additions",
+        "Heritage approvals and site support"
+      ],
+      "hero": "https://static.wixstatic.com/media/1c41db_0dc4a8ec42344f9888efce682ecb4e7b~mv2.jpg",
+      "gallery": [
+        {
+          "name": "ANZAC Memorial Chapel",
+          "image": "https://static.wixstatic.com/media/1c41db_0a3cc5901e504a17b2bc5f19dff79cd8~mv2.jpg"
+        },
+        {
+          "name": "Old Parliament House",
+          "image": "https://static.wixstatic.com/media/1c41db_3483c971c2c84939b3ea06ede67e1891~mv2.jpg",
+          "wide": true
+        },
+        {
+          "name": "Australian War Memorial",
+          "image": "https://static.wixstatic.com/media/1c41db_243cf2b929314ea6a915d79e038327fe~mv2.jpg"
+        },
+        {
+          "name": "Ainslie School",
+          "image": "https://static.wixstatic.com/media/1c41db_5f403974b8f44ef7893ec9ee8ab40416~mv2.jpg"
+        },
+        {
+          "name": "Turner Heritage Assessment",
+          "image": "https://static.wixstatic.com/media/1c41db_9bfa11a7abff44a59789abd4fda6ca6c~mv2.jpg",
+          "wide": true
+        },
+        {
+          "name": "Berry Homestead",
+          "image": "https://static.wixstatic.com/media/1c41db_9e4bfe7b14fc4d0badd074a0c7f96b7f~mv2.jpg"
+        }
+      ]
+    },
+    "planning": {
+      "title": "Planning & Feasibility",
+      "shortTitle": "Planning",
+      "kicker": "Strategy · approvals · development potential",
+      "summary": "Clear early advice that aligns design ambition, statutory pathways and development value.",
+      "intro": "Our planning work connects site analysis, development strategy and architectural testing from the beginning of a project.",
+      "statement": "We identify constraints and opportunities early, test built form rather than relying on abstract numbers, and build an approvals pathway that keeps the design, consultant team and commercial brief aligned.",
+      "services": [
+        "Site due diligence and acquisition advice",
+        "Development feasibility and yield studies",
+        "Planning strategy and pre-application advice",
+        "Development application coordination",
+        "Design response and planning reports",
+        "Authority liaison and approvals management"
+      ],
+      "hero": "https://static.wixstatic.com/media/1c41db_8b0695571c2c4164bd0cca5198da3d33~mv2.png",
+      "gallery": [
+        {
+          "name": "Mixed-use Feasibility",
+          "image": "https://static.wixstatic.com/media/1c41db_8b0695571c2c4164bd0cca5198da3d33~mv2.png",
+          "wide": true
+        },
+        {
+          "name": "Cascades Precinct",
+          "image": "https://static.wixstatic.com/media/1c41db_3cf68b7a0bc746828a6540af4e285371~mv2.jpg"
+        },
+        {
+          "name": "Moncrieff Community",
+          "image": "https://static.wixstatic.com/media/1c41db_d184a2d30e7a4e83aead30eb27da079c~mv2.jpg"
+        },
+        {
+          "name": "Marks Road Study",
+          "image": "https://static.wixstatic.com/media/1c41db_911e2be66847431e88c39d3da0ce10b7~mv2.png",
+          "wide": true
+        },
+        {
+          "name": "Commercial Development",
+          "image": "https://static.wixstatic.com/media/1c41db_60fa05b516814169b28c4ed5684b3181~mv2.png"
+        },
+        {
+          "name": "Adaptable Housing",
+          "image": "https://static.wixstatic.com/media/1c41db_de3151f33a0e4913b34576a6a3c8b260~mv2.jpg"
+        }
+      ]
+    }
+  },
+  "projects": [
+    {
+      "name": "Shangrila Retreat",
+      "place": "Murrumbateman, NSW",
+      "sector": "Residential",
+      "discipline": "residential",
+      "image": "https://static.wixstatic.com/media/1c41db_0337a052db7c4fb094c42c40e515f7d9~mv2.png",
+      "wide": true
+    },
+    {
+      "name": "Stepped House",
+      "place": "Taylor, ACT",
+      "sector": "Residential",
+      "discipline": "residential",
+      "image": "https://static.wixstatic.com/media/1c41db_afa317b7f88a4776b30ef115c32ba2eb~mv2.png"
+    },
+    {
+      "name": "Commercial Showroom",
+      "place": "Canberra, ACT",
+      "sector": "Commercial",
+      "discipline": "commercial",
+      "image": "https://static.wixstatic.com/media/1c41db_60fa05b516814169b28c4ed5684b3181~mv2.png"
+    },
+    {
+      "name": "Arched House",
+      "place": "Canberra, ACT",
+      "sector": "Residential",
+      "discipline": "residential",
+      "image": "https://static.wixstatic.com/media/1c41db_daab315f018d418896c449aba26190e5~mv2.png"
+    },
+    {
+      "name": "Hotel Pavilion",
+      "place": "Northbourne Avenue, ACT",
+      "sector": "Commercial",
+      "discipline": "commercial",
+      "image": "https://static.wixstatic.com/media/1c41db_2078a97342254ad0a39c1672a0f86c5b~mv2.jpg",
+      "wide": true
+    },
+    {
+      "name": "Pureline House",
+      "place": "Jumping Creek, NSW",
+      "sector": "Residential",
+      "discipline": "residential",
+      "image": "https://static.wixstatic.com/media/1c41db_9527fdb89b7e4b4699a6b2ad8414064c~mv2.jpeg"
+    },
+    {
+      "name": "Marks Road Apartments",
+      "place": "Randwick, NSW",
+      "sector": "Multi-dwelling",
+      "discipline": "multidwelling",
+      "image": "https://static.wixstatic.com/media/1c41db_80e335005df44420bde94e3250c1227d~mv2.png"
+    },
+    {
+      "name": "Double Height Living",
+      "place": "Canberra, ACT",
+      "sector": "Interiors",
+      "discipline": "interiors",
+      "image": "https://static.wixstatic.com/media/1c41db_690afe242e004fb7a3503ec77b293c23~mv2.jpg"
+    },
+    {
+      "name": "360 Degree House",
+      "place": "Taylor, ACT",
+      "sector": "Residential",
+      "discipline": "residential",
+      "image": "https://static.wixstatic.com/media/1c41db_d9489c41b3864c37a0443807c133f72f~mv2.jpg"
+    },
+    {
+      "name": "Granada Townhouses",
+      "place": "Weetangera, ACT",
+      "sector": "Multi-dwelling",
+      "discipline": "multidwelling",
+      "image": "https://static.wixstatic.com/media/1c41db_776bb8abe2234227b5665ab11888017c~mv2.jpg",
+      "wide": true
+    },
+    {
+      "name": "Jigsaw House",
+      "place": "Denman Prospect, ACT",
+      "sector": "Residential",
+      "discipline": "residential",
+      "image": "https://static.wixstatic.com/media/1c41db_856fe6563a5c49d29243f5535fa34415~mv2.jpg"
+    },
+    {
+      "name": "Blue Stone House",
+      "place": "Canberra, ACT",
+      "sector": "Residential",
+      "discipline": "residential",
+      "image": "https://static.wixstatic.com/media/1c41db_cb9b538c38e148e1b1a4d77f6635c05a~mv2.jpg"
+    },
+    {
+      "name": "Lyons House",
+      "place": "Lyons, ACT",
+      "sector": "Interiors",
+      "discipline": "interiors",
+      "image": "https://static.wixstatic.com/media/1c41db_9c1c8cb80df646ff906b5df610330b91~mv2.jpg"
+    },
+    {
+      "name": "Cascades Plaza",
+      "place": "Gungahlin, ACT",
+      "sector": "Commercial",
+      "discipline": "commercial",
+      "image": "https://static.wixstatic.com/media/1c41db_3cf68b7a0bc746828a6540af4e285371~mv2.jpg"
+    },
+    {
+      "name": "Bronze House",
+      "place": "Whitlam, ACT",
+      "sector": "Residential",
+      "discipline": "residential",
+      "image": "https://static.wixstatic.com/media/1c41db_5d1ca726a15141178d266d724b9d571b~mv2.jpg"
+    },
+    {
+      "name": "Australian War Memorial",
+      "place": "Canberra, ACT",
+      "sector": "Heritage",
+      "discipline": "heritage",
+      "image": "https://static.wixstatic.com/media/1c41db_c10f6d628c0b457f93db6edc36810a22~mv2.jpg",
+      "wide": true
+    },
+    {
+      "name": "Box by Box House",
+      "place": "Denman Prospect, ACT",
+      "sector": "Residential",
+      "discipline": "residential",
+      "image": "https://static.wixstatic.com/media/1c41db_1250579d29364bce8c2d7badfcfaac1e~mv2.jpg"
+    },
+    {
+      "name": "21st Mid-century Residence",
+      "place": "Canberra, ACT",
+      "sector": "Interiors",
+      "discipline": "interiors",
+      "image": "https://static.wixstatic.com/media/1c41db_b8c985bf592d4a73bc90719de13f8b82~mv2.jpg"
+    },
+    {
+      "name": "Sutton Acreage House",
+      "place": "Yass Valley, NSW",
+      "sector": "Residential",
+      "discipline": "residential",
+      "image": "https://static.wixstatic.com/media/1c41db_b4616a5c5f584a5b82350b2022dd94d0~mv2.jpg",
+      "wide": true
+    },
+    {
+      "name": "Hilltop House",
+      "place": "Throsby, ACT",
+      "sector": "Residential",
+      "discipline": "residential",
+      "image": "https://static.wixstatic.com/media/1c41db_58903b5f9c6c40d49f5f260e9e9f5288~mv2.jpg"
+    },
+    {
+      "name": "Shantiniketan Community Centre",
+      "place": "Florey, ACT",
+      "sector": "Commercial",
+      "discipline": "commercial",
+      "image": "https://static.wixstatic.com/media/1c41db_213dda9b68434eb6b4cf0206ddb19ab4~mv2.jpg"
+    },
+    {
+      "name": "Warehouse Number 10",
+      "place": "Hume, ACT",
+      "sector": "Commercial",
+      "discipline": "commercial",
+      "image": "https://static.wixstatic.com/media/1c41db_4bd515e047714ba3824fb920b7ed9357~mv2.jpg"
+    },
+    {
+      "name": "Ruiz Property Office",
+      "place": "Canberra, ACT",
+      "sector": "Interiors",
+      "discipline": "interiors",
+      "image": "https://static.wixstatic.com/media/1c41db_840a8a4eb2f24f65849ce3a2380e5c36~mv2.jpg",
+      "wide": true
+    },
+    {
+      "name": "Scandinavian Living",
+      "place": "Canberra, ACT",
+      "sector": "Interiors",
+      "discipline": "interiors",
+      "image": "https://static.wixstatic.com/media/1c41db_fb0d7a7ffdfa4ec5a6de53b2095e5b38~mv2.jpg"
+    },
+    {
+      "name": "Adaptable Townhouses",
+      "place": "Canberra, ACT",
+      "sector": "Multi-dwelling",
+      "discipline": "multidwelling",
+      "image": "https://static.wixstatic.com/media/1c41db_de3151f33a0e4913b34576a6a3c8b260~mv2.jpg"
+    },
+    {
+      "name": "Moncrieff Community",
+      "place": "Moncrieff, ACT",
+      "sector": "Planning",
+      "discipline": "planning",
+      "image": "https://static.wixstatic.com/media/1c41db_d184a2d30e7a4e83aead30eb27da079c~mv2.jpg"
+    },
+    {
+      "name": "National Film and Sound Archive",
+      "place": "Canberra, ACT",
+      "sector": "Heritage",
+      "discipline": "heritage",
+      "image": "https://static.wixstatic.com/media/1c41db_0dc4a8ec42344f9888efce682ecb4e7b~mv2.jpg"
+    },
+    {
+      "name": "Old Parliament House",
+      "place": "Canberra, ACT",
+      "sector": "Heritage",
+      "discipline": "heritage",
+      "image": "https://static.wixstatic.com/media/1c41db_3483c971c2c84939b3ea06ede67e1891~mv2.jpg"
+    },
+    {
+      "name": "Ainslie School",
+      "place": "Ainslie, ACT",
+      "sector": "Heritage",
+      "discipline": "heritage",
+      "image": "https://static.wixstatic.com/media/1c41db_5f403974b8f44ef7893ec9ee8ab40416~mv2.jpg"
+    },
+    {
+      "name": "Mixed-use Development Study",
+      "place": "ACT & NSW",
+      "sector": "Planning",
+      "discipline": "planning",
+      "image": "https://static.wixstatic.com/media/1c41db_8b0695571c2c4164bd0cca5198da3d33~mv2.png",
+      "wide": true
+    }
+  ],
+  "sectorFilters": [
+    "All",
+    "Residential",
+    "Commercial",
+    "Multi-dwelling",
+    "Interiors",
+    "Heritage",
+    "Planning"
+  ]
+}

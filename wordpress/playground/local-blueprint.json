@@ -1,0 +1,18 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "preferredVersions": {
+    "php": "8.3",
+    "wp": "latest"
+  },
+  "landingPage": "/",
+  "siteOptions": {
+    "blogname": "Hyperspace Architecture",
+    "blogdescription": "Architecture, planning, interiors and heritage"
+  },
+  "steps": [
+    {
+      "step": "runPHP",
+      "code": "<?php require '/wordpress/wp-load.php'; switch_theme('hyperspace-architecture');"
+    }
+  ]
+}
