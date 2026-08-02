@@ -1,0 +1,38 @@
+name: Deploy WordPress theme to VentraIP
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "wordpress/hyperspace-architecture/**"
+      - ".github/workflows/deploy-wordpress-theme.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: hyperspace-wordpress-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Deploy audited theme over explicit FTPS
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          port: 21
+          local-dir: wordpress/hyperspace-architecture/
+          server-dir: /
+          dangerous-clean-slate: false
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
