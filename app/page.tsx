@@ -22,9 +22,7 @@ export default function Home() {
         <div className="hero-copy">
           <p>Architecture · Planning · Interiors · Heritage</p>
           <h1>
-            Designed with clarity.
-            <br />
-            Delivered with certainty.
+            Canberra Architects
           </h1>
           <div className="hero-meta">
             <span>Canberra · Sydney · Regional NSW</span>
