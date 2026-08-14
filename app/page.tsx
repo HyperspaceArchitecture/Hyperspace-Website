@@ -72,7 +72,7 @@ export default function Home() {
                   <img
                     loading={index < 3 ? "eager" : "lazy"}
                     src={discipline.hero}
-                    alt={`${discipline.title} project by Hyperspace Architecture, serving Canberra, the ACT and NSW`
+                    alt="Architecture, planning, interiors, heritage, multi-dwelling and commercial projects by Hyperspace Architecture"
                   />
                 </div>
                 <div className="discipline-card-copy">
