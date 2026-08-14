@@ -19,7 +19,7 @@ export function DisciplinePage({ discipline }: { discipline: DisciplineKey }) {
       <SiteHeader />
 
       <section className="discipline-hero">
-        <img src={data.hero} alt={`${data.title} by Hyperspace Architecture`} />
+        <img src={data.hero} alt={`${data.title} project by Hyperspace Architecture: ${data.shortTitle} architecture in Canberra and NSW` />
         <div className="discipline-hero-shade" />
         <div className="discipline-hero-copy wrap">
           <p>{data.kicker}</p>
@@ -68,7 +68,7 @@ export function DisciplinePage({ discipline }: { discipline: DisciplineKey }) {
                 <img
                   loading={index < 4 ? "eager" : "lazy"}
                   src={item.image}
-                  alt={`${item.name} by Hyperspace Architecture`}
+                  alt={`${data.title} project by Hyperspace Architecture: ${item.name}`}
                 />
               </div>
               <figcaption>{item.name}</figcaption>
