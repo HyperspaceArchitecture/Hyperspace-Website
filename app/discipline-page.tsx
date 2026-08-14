@@ -19,7 +19,7 @@ export function DisciplinePage({ discipline }: { discipline: DisciplineKey }) {
       <SiteHeader />
 
       <section className="discipline-hero">
-        <img src={data.hero} alt={`${data.title} project by Hyperspace Architecture: ${data.shortTitle} architecture in Canberra and NSW` />
+        <img src={data.hero} alt={`${data.title} project by Hyperspace Architecture: ${data.shortTitle} architecture in Canberra and NSW`} />
         <div className="discipline-hero-shade" />
         <div className="discipline-hero-copy wrap">
           <p>{data.kicker}</p>
