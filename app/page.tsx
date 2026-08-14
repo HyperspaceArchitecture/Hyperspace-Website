@@ -16,7 +16,7 @@ export default function Home() {
       <section id="top" className="hero">
         <img
           src={projects[0].image}
-          alt="Shangrila Retreat by Hyperspace Architecture"
+          alt="Residential architecture by Hyperspace Architecture: Shangrila Retreat in Murrumbateman, NSW"
         />
         <div className="hero-shade" />
         <div className="hero-copy">
@@ -72,7 +72,7 @@ export default function Home() {
                   <img
                     loading={index < 3 ? "eager" : "lazy"}
                     src={discipline.hero}
-                    alt={`${discipline.title} by Hyperspace Architecture`}
+                    alt={`${discipline.title} project by Hyperspace Architecture, serving Canberra, the ACT and NSW`
                   />
                 </div>
                 <div className="discipline-card-copy">
@@ -230,7 +230,7 @@ export default function Home() {
       </section>
 
       <section className="cta">
-        <img src={projects[4].image} alt="Hotel Pavilion mixed-use project" />
+        <img src={projects[4].image} alt="Commercial architecture by Hyperspace Architecture: Hotel Pavilion mixed-use project on Northbourne Avenue, ACT" />
         <div>
           <p className="eyebrow">Start a conversation</p>
           <h2>Have a site or project in mind?</h2>
