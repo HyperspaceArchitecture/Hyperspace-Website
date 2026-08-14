@@ -184,7 +184,7 @@ export function ProjectMatrix() {
               <img
                 loading={index < 6 ? "eager" : "lazy"}
                 src={project.image}
-                alt={`${project.name}, ${project.place}, by Hyperspace Architecture`}
+                alt={`Architectural ${project.sector.toLowerCase()} project by Hyperspace Architecture: ${project.name} in ${project.place}`}
               />
             </div>
             <div className="project-copy">
