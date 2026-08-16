@@ -21,9 +21,7 @@ $paths       = isset( $data['disciplinePaths'] ) ? $data['disciplinePaths'] : ar
 <?php wp_body_open(); ?>
 <header class="site-header">
 	<div class="header-identity">
-		<a class="brand" href="<?php echo hyperspace_page_url(); ?>" aria-label="Hyperspace Architecture home">
-			<img src="<?php echo hyperspace_theme_asset( 'brand/hyperspace-wordmark.png' ); ?>" alt="Hyperspace Contextual Urbanism">
-		</a>
+		<a class="brand brand-name" href="<?php echo hyperspace_page_url(); ?>" aria-label="Hyperspace Architecture home">HYPERSPACE ARCHITECTURE</a>
 		<a class="institute-mark" href="https://members.architecture.com.au/faaprofile?profileid=020e7a21-0815-432a-9a7b-e5419f33e8f5" target="_blank" rel="noreferrer" aria-label="Hyperspace A+ practice profile at the Australian Institute of Architects">
 			<img src="<?php echo hyperspace_theme_asset( 'brand/aia-logo.png' ); ?>" alt="Australian Institute of Architects">
 		</a>
