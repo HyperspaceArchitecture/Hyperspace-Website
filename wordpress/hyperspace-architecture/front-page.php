@@ -16,6 +16,7 @@ get_header();
 ?>
 <main>
 	<section id="top" class="hero">
+		<div class="hero-brand" aria-label="Hyperspace Architecture">HYPERSPACE ARCHITECTURE</div>
 		<img src="<?php echo esc_url( $projects[0]['image'] ); ?>" alt="Shangrila Retreat by Hyperspace Architecture">
 		<div class="hero-shade"></div>
 		<div class="hero-copy">
