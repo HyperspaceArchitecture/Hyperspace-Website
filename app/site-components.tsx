@@ -68,10 +68,7 @@ export function SiteHeader() {
     <header className="site-header">
       <div className="header-identity">
         <Link className="brand" href="/" aria-label="Hyperspace Architecture home">
-          <img
-            src="/brand/hyperspace-wordmark.png"
-            alt="Hyperspace Contextual Urbanism"
-          />
+          <span className="brand-name">HYPERSPACE ARCHITECTURE</span>
         </Link>
         <a
           className="institute-mark"
@@ -204,11 +201,8 @@ export function SiteFooter() {
   return (
     <footer id="contact" className="wrap">
       <div className="footer-main">
-        <Link className="brand footer-brand" href="/" aria-label="Home">
-          <img
-            src="/brand/hyperspace-wordmark.png"
-            alt="Hyperspace Contextual Urbanism"
-          />
+        <Link className="brand footer-brand" href="/" aria-label="Hyperspace Architecture home">
+          <span className="brand-name">HYPERSPACE ARCHITECTURE</span>
         </Link>
         <div>
           <p className="eyebrow">Contact</p>
