@@ -14,6 +14,7 @@ export default function Home() {
       <SiteHeader />
 
       <section id="top" className="hero">
+        <div className="hero-brand" aria-label="Hyperspace Architecture">HYPERSPACE ARCHITECTURE</div>
         <img
           src={projects[0].image}
           alt="Residential architecture by Hyperspace Architecture: Shangrila Retreat in Murrumbateman, NSW"
