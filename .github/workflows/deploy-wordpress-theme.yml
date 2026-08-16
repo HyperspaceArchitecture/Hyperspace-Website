@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: hyperspace-wordpress-production
+  group: hyperspace-wordpress-staging
   cancel-in-progress: false
 
 jobs:
@@ -21,7 +21,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Deploy audited theme over explicit FTPS
+      - name: Deploy audited theme to staging over explicit FTPS
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
           server: ${{ secrets.FTP_SERVER }}
@@ -30,7 +30,7 @@ jobs:
           protocol: ftps
           port: 21
           local-dir: wordpress/hyperspace-architecture/
-          server-dir: /
+          server-dir: /staging.hyper-space.com.au/
           dangerous-clean-slate: false
           exclude: |
             **/.git*
