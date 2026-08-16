@@ -104,10 +104,13 @@ button {
   display: flex;
 }
 
-.brand img {
-  height: auto;
-  object-fit: contain;
-  width: 232px;
+.brand-name {
+  color: var(--ink);
+  font-size: clamp(17px, 1.65vw, 29px);
+  font-weight: 300;
+  letter-spacing: -0.055em;
+  line-height: 1;
+  white-space: nowrap;
 }
 
 .header-identity {
