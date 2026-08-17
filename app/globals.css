@@ -224,6 +224,30 @@ button {
   z-index: 2;
 }
 
+.hero-carousel,
+.hero-carousel img {
+  inset: 0;
+  position: absolute;
+}
+
+.hero-carousel {
+  overflow: hidden;
+}
+
+.hero-carousel img {
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transform: scale(1.02);
+  transition: opacity 1.25s ease-in-out, transform 6s ease-out;
+  width: 100%;
+}
+
+.hero-carousel img.is-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
 .hero-shade,
 .discipline-hero-shade {
   background: linear-gradient(
