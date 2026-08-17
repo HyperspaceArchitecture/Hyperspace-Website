@@ -58,6 +58,25 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="practice-highlights" aria-label="Hyperspace practice highlights">
+        <div className="practice-highlight-band">
+          <article><strong>A+ PRACTICE</strong><span>of the Australian Institute of Architects since 2020</span></article>
+          <article><strong>ISO 9001</strong><span>Certification</span><p>Quality management system certified to ISO 9001:2015.</p></article>
+          <article><strong>AUSTRALIA-WIDE</strong><span>Jurisdictions</span><img src="https://hyperspace-architecture.hyperspacearchitecture.chatgpt.site/brand/australia-wide-map.png" alt="Australia-wide jurisdictions map showing Hyperspace Architecture's practice coverage" /></article>
+          <article><strong>CONCEPT → DA → CONSTRUCTION DOCS</strong><span>Full-scope service</span><p>Feasibility, approvals, documentation and delivery support.</p></article>
+          <article><strong>DEP · PDP</strong><span>NSW building practice</span><p>Design & Building Practitioner · NSW.</p></article>
+        </div>
+        <div className="practice-capabilities">
+          <article><img src="https://hyperspace-architecture.hyperspacearchitecture.chatgpt.site/practice-logos/apartments.png" alt="" /><strong>Apartments & units</strong><p>3000+ apartments and units delivered across multi-residential work.</p></article>
+          <article><img src="https://hyperspace-architecture.hyperspacearchitecture.chatgpt.site/practice-logos/partners.png" alt="" /><strong>Top-tier partners</strong><p>Trusted by developers, builders and government agencies.</p></article>
+          <article><img src="https://hyperspace-architecture.hyperspacearchitecture.chatgpt.site/practice-logos/storeys.png" alt="" /><strong>Storey range</strong><p>From compact buildings to projects up to 55 storeys.</p></article>
+          <article><img src="https://hyperspace-architecture.hyperspacearchitecture.chatgpt.site/practice-logos/homes.png" alt="" /><strong>Single residences</strong><p>350+ single residences, alterations and bespoke homes.</p></article>
+          <article><img src="https://hyperspace-architecture.hyperspacearchitecture.chatgpt.site/practice-logos/team.png" alt="" /><strong>Architects & designers</strong><p>12+ architects and designers across a growing studio.</p></article>
+          <article><img src="https://hyperspace-architecture.hyperspacearchitecture.chatgpt.site/practice-logos/storeys.png" alt="" /><strong>Years documenting</strong><p>30+ years resolving design for construction.</p></article>
+          <article><img src="https://hyperspace-architecture.hyperspacearchitecture.chatgpt.site/practice-logos/global.png" alt="" /><strong>Global experience</strong><p>International experience applied locally.</p></article>
+        </div>
+      </section>
+
       <section id="disciplines" className="discipline-index">
         <div className="discipline-index-head wrap">
           <p className="eyebrow">Our disciplines</p>
