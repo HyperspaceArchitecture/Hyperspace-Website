@@ -12,14 +12,22 @@ import {
 
 const navigation = [
   { label: "Home", href: "/" },
-  { label: "About", href: "/about" },
-  { label: "Projects", href: "/projects" },
+  { label: "About ↓", href: "/about" },
+  { label: "Studio", href: "/about" },
+  { label: "People", href: "/about#people" },
   { label: "Careers", href: "/careers" },
+  { label: "Projects", href: "/projects" },
+  { label: "Residential", href: "/residential" },
+  { label: "Commercial", href: "/commercial" },
+  { label: "Multi-dwelling", href: "/multi-dwelling" },
+  { label: "Interiors", href: "/interiordesign" },
+  { label: "Heritage", href: "/heritage" },
+  { label: "Planning", href: "/planning" },
   { label: "Design process", href: "/design-process" },
-  { label: "News", href: "/latestnews" },
+  { label: "News & media", href: "/news-media" },
   { label: "Contact", href: "/contact" },
-  { label: "Blog", href: "/blog" },
-  { label: "Press & outreach", href: "/press-outreach" },
+  { label: "Documentation", href: "/documentation" },
+  { label: "Photo alt text", href: "/photo-alt-text" },
   { label: "Resources", href: "/resources" },
 ];
 
