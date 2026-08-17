@@ -7,7 +7,7 @@ export const metadata: Metadata = staticPageMetadata(
   "Architectural Documentation & Construction Delivery",
   "Technical documentation, certification coordination and construction-stage support from Hyperspace Architecture.",
   "/documentation",
-  https://hyperspace-architecture.hyperspacearchitecture.chatgpt.site/documentation-axonometric-v1.png,
+  projects[4].image,
 );
 
 const benefits = [
@@ -32,7 +32,7 @@ export default function DocumentationPage() {
       eyebrow="Documentation & delivery"
       title="From development approval to construction. One coordinated partner."
       intro="Technical documentation, certification coordination and construction-stage support for developers, builders and main contractors."
-      image={https://hyperspace-architecture.hyperspacearchitecture.chatgpt.site/documentation-axonometric-v1.png}
+      image={projects[4].image}
       imageAlt="Coordinated architectural documentation shown as a technical building model"
     >
       <section className="value-grid">
