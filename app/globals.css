@@ -1935,7 +1935,7 @@ footer {
   margin-top:clamp(28px,5vh,58px);
   max-width:620px;
 }
-.hero-carousel:has(.hero-statement-slide.is-active) + .hero-shade{display:none}
+.hero:has(.hero-statement-slide.is-active) .hero-shade,.hero:has(.hero-statement-slide.is-active) .hero-copy,.hero:has(.hero-statement-slide.is-active) .hero-brand{display:none}
 @media (prefers-reduced-motion:reduce){
   .hero-statement-slide{transition:none}
 }
