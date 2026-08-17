@@ -44,7 +44,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="page-section page-section-tint wrap">
+      <section id="people" className="page-section page-section-tint wrap">
         <p className="eyebrow">What makes us different</p>
         <div className="value-grid">
           <article>
