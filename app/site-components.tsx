@@ -68,7 +68,7 @@ export function SiteHeader() {
     <header className="site-header">
       <div className="header-identity">
         <Link className="brand" href="/" aria-label="Hyperspace Architecture home">
-          <span className="brand-name">HYPERSPACE ARCHITECTURE</span>
+          <img className="brand-wordmark" src="/brand/hyperspace-wordmark.png" alt="Hyperspace contextual urbanism" />
         </Link>
         <a
           className="institute-mark"
