@@ -6,6 +6,7 @@ import {
   projects,
 } from "./site-data";
 import { JsonLd, organisationSchema, websiteSchema } from "./seo";
+import { HeroCarousel } from "./hero-carousel";
 
 export default function Home() {
   return (
@@ -15,9 +16,11 @@ export default function Home() {
 
       <section id="top" className="hero">
         <img className="hero-brand" src="/brand/hyperspace-wordmark.png" alt="Hyperspace contextual urbanism" />
-        <img
-          src={projects[0].image}
-          alt="Residential architecture by Hyperspace Architecture: Shangrila Retreat in Murrumbateman, NSW"
+        <HeroCarousel
+          images={projects.slice(0, 12).map((project) => ({
+            src: project.image,
+            alt: `${project.name}, ${project.place}`,
+          }))}
         />
         <div className="hero-shade" />
         <div className="hero-copy">
